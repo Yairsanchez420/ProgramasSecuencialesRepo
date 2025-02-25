@@ -110,4 +110,3 @@ public class EstructurasControlP1 {
     }
 }
 
-public static void
