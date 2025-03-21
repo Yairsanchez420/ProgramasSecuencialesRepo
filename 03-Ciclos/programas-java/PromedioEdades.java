@@ -14,9 +14,9 @@ public class PromedioEdades {
             String sexo = JOptionPane.showInputDialog("Alumno " + i + " - Ingrese el sexo (Hombre/Mujer):").toLowerCase();
             int edad = Integer.parseInt(JOptionPane.showInputDialog("Alumno " + i + " - Ingrese su edad:"));
 
-            sumaTotal += edad; // Sumar edad total para el promedio general
 
-            if (sexo.equals("hombre")) {
+             sumaTotal += edad; // Sumar edad total para el promedio general
+  if (sexo.equals("hombre")) {
                 hombres++;
                 sumaHombres += edad; // Sumar edad de hombres
             } else if (sexo.equals("mujer")) {
